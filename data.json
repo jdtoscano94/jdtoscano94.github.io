@@ -11,9 +11,19 @@
       "url": "https://scholar.google.com/citations?user=XNvLUKwAAAAJ"
     },
     {
+      "label": "Brown profile",
+      "icon": "uni",
+      "url": "https://appliedmath.brown.edu/people/juan-toscano"
+    },
+    {
       "label": "GitHub",
       "icon": "github",
       "url": "https://github.com/jdtoscano94"
+    },
+    {
+      "label": "ResearchGate",
+      "icon": "rg",
+      "url": "https://www.researchgate.net/profile/Juan-Toscano-4"
     },
     {
       "label": "LinkedIn",
