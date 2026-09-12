@@ -141,7 +141,12 @@
               "venue": "bioRxiv",
               "year": 2026,
               "desc": "How MR-AIV responds to noise, resolution, and modeling choices.",
-              "links": []
+              "links": [
+                [
+                  "Paper",
+                  "https://doi.org/10.64898/2026.04.14.718498"
+                ]
+              ]
             },
             {
               "key": "csf",
