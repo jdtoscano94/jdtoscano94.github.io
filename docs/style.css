@@ -6,7 +6,7 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
 .wrap{max-width:var(--maxw);margin:0 auto;padding:0 20px}
 .masthead{position:sticky;top:0;z-index:5;background:rgba(255,255,255,.96);border-bottom:1px solid var(--line);backdrop-filter:blur(6px)}
 .masthead .wrap{display:flex;align-items:center;justify-content:space-between;height:52px}
-.site-title{font-weight:700;color:var(--text);font-size:17px}
+.site-title{font-weight:700;color:var(--text);font-size:17px;white-space:nowrap}
 .masthead nav a{color:var(--text);margin-left:22px;font-size:15px}
 .masthead nav a:hover{color:var(--accent);text-decoration:none}
 .layout{display:grid;grid-template-columns:var(--sidebar) minmax(0,1fr);gap:48px;padding-top:36px}
@@ -54,6 +54,7 @@ footer code{font-size:12.5px}
  .avatar{width:110px;height:110px;grid-row:1/4}
  .meta{display:flex;flex-wrap:wrap;gap:4px 16px}
  .masthead nav a{margin-left:14px;font-size:14px}
+ .site-title{font-size:15px}
 }
 @media (max-width:560px){
  .pub{grid-template-columns:1fr}.thumb{width:100%;height:150px}
