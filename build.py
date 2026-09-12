@@ -61,6 +61,8 @@ def talk(t):
 talks = "".join(talk(t) for t in d["talks"])
 about = "".join(f"<p>{p}</p>" for p in d["about"])
 
+gc = d.get("analytics", {}).get("goatcounter", "")
+analytics = (f'<script data-goatcounter="https://{gc}.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>' if gc else "")
 page = f'''<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -69,6 +71,7 @@ page = f'''<!DOCTYPE html>
 <title>{e(d["name"])}</title>
 <meta name="description" content="{e(d["name"])}, {e(d["tagline"])}, {e(d["affiliation"])}. Scientific machine learning, physics-informed AI, agentic systems.">
 <link rel="stylesheet" href="style.css">
+{analytics}
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>∇</text></svg>">
 </head>
 <body>
