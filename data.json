@@ -132,7 +132,12 @@
               "venue": "TechRxiv",
               "year": 2026,
               "desc": "Neural operators trained on MR-AIV outputs that estimate velocity fields in seconds.",
-              "links": []
+              "links": [
+                [
+                  "Paper",
+                  "https://www.techrxiv.org/doi/full/10.36227/techrxiv.177223035.50227755/v1"
+                ]
+              ]
             },
             {
               "key": "robust_mraiv",
@@ -463,31 +468,76 @@
   "talks": [
     [
       "Nov 2026",
-      "GRAFT-ATHENA (upcoming). Minisymposium on Agentic AI for Scientific Discovery and Computing, SIAM Conference on Mathematics of Data Science, Salt Lake City."
+      "GRAFT-ATHENA (upcoming). Minisymposium on Agentic AI for Scientific Discovery and Computing, SIAM Conference on Mathematics of Data Science, Salt Lake City.",
+      [
+        [
+          "Session",
+          "https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=89545"
+        ]
+      ]
     ],
     [
       "Jun 2026",
-      "GRAFT-ATHENA. USACM Student Chapter online seminar series."
+      "GRAFT-ATHENA. USACM Student Chapter online seminar series.",
+      [
+        [
+          "Announcement",
+          "https://www.usacm.org/site_announcements_detail.cfm?pk_association_announcement=24335"
+        ],
+        [
+          "Video",
+          "https://www.youtube.com/watch?v=TzrUFIIXX9U"
+        ]
+      ]
     ],
     [
       "May 2026",
-      "ATHENA. ICERM Hot Topics Workshop on Agentic Scientific Computing and Scientific Machine Learning, Brown University."
+      "ATHENA. ICERM Hot Topics Workshop on Agentic Scientific Computing and Scientific Machine Learning, Brown University.",
+      [
+        [
+          "Workshop",
+          "https://icerm.brown.edu/program/hot_topics_workshop/htw-26-asm"
+        ]
+      ]
     ],
     [
       "Feb 2026",
-      "ATHENA. Scientific AI Agents seminar, Department of Applied and Computational Mathematics and Statistics, University of Notre Dame."
+      "ATHENA. Scientific AI Agents seminar, Department of Applied and Computational Mathematics and Statistics, University of Notre Dame.",
+      [
+        [
+          "Event",
+          "https://acms.nd.edu/events/2026/02/17/dac-workgroup-on-scientific-ai-agents-seminar-athena-agentic-team-for-hierarchical-evolutionary-numerical-algorithms/"
+        ]
+      ]
     ],
     [
-      "2025",
-      "Physics-informed machine learning: introduction, extensions and practical applications. Computational Mathematics + X seminar, Caltech."
+      "Feb 2025",
+      "Physics-informed machine learning: introduction, extensions and practical applications. Center for Scientific Computing and Data Science Research, UMass Dartmouth.",
+      [
+        [
+          "Seminar",
+          "https://www.cscdr.umassd.edu/seminars"
+        ]
+      ]
     ],
     [
-      "2025",
-      "Physics-informed machine learning: introduction, extensions and practical applications. Center for Scientific Computing and Data Science Research, UMass Dartmouth."
+      "Jan 2025",
+      "Physics-informed machine learning and Kolmogorov-Arnold networks. Computational Mathematics + X seminar, Caltech.",
+      [
+        [
+          "Event",
+          "https://cmx.caltech.edu/pastevents2025.html"
+        ],
+        [
+          "Video",
+          "https://www.youtube.com/watch?v=MQqKEmlUlSk"
+        ]
+      ]
     ],
     [
-      "2024",
-      "Inferring in vivo murine cerebrospinal fluid flow with artificial intelligence velocimetry. AI Medical Imaging seminar, UT Austin."
+      "Fall 2024",
+      "Inferring in vivo murine cerebrospinal fluid flow with artificial intelligence velocimetry. AI Medical Imaging seminar, UT Austin.",
+      []
     ]
   ]
 }

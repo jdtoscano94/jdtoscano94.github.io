@@ -54,7 +54,11 @@ pillars = "\n".join(pillar(pl, i + 1) for i, pl in enumerate(d["pillars"]))
 earlier = "\n".join(paper(p) for p in d["earlier"]["papers"])
 software = "".join(f'<li><a href="{e(s["url"])}"><b>{e(s["name"])}</b></a> {e(s["desc"])}</li>' for s in d["software"])
 honors = "".join(f'<li><span class="when">{e(y)}</span><span>{e(t)}</span></li>' for y, t in d["honors"])
-talks = "".join(f'<li><span class="when">{e(y)}</span><span>{e(t)}</span></li>' for y, t in d["talks"])
+def talk(t):
+    y, txt, links = (t + [[]])[:3]
+    pills = "".join(f' <a class="pill pill-sm" href="{e(u)}">{e(l)}</a>' for l, u in links)
+    return f'<li><span class="when">{e(y)}</span><span>{e(txt)}{pills}</span></li>'
+talks = "".join(talk(t) for t in d["talks"])
 about = "".join(f"<p>{p}</p>" for p in d["about"])
 
 page = f'''<!DOCTYPE html>
