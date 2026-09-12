@@ -1,0 +1,473 @@
+{
+  "name": "Juan Diego Toscano",
+  "tagline": "PhD candidate, Applied Mathematics",
+  "affiliation": "Brown University, Crunch Group",
+  "location": "Providence, RI",
+  "email": "juan_toscano@brown.edu",
+  "links": [
+    {
+      "label": "Google Scholar",
+      "icon": "scholar",
+      "url": "https://scholar.google.com/citations?user=XNvLUKwAAAAJ"
+    },
+    {
+      "label": "GitHub",
+      "icon": "github",
+      "url": "https://github.com/jdtoscano94"
+    },
+    {
+      "label": "LinkedIn",
+      "icon": "linkedin",
+      "url": "https://www.linkedin.com/in/juan-diego-toscano-908011ab/"
+    },
+    {
+      "label": "YouTube",
+      "icon": "youtube",
+      "url": "https://www.youtube.com/channel/UC6ryWzulr-Xom2Bym7O_CvQ"
+    },
+    {
+      "label": "CV (PDF)",
+      "icon": "file",
+      "url": "assets/CV.pdf"
+    }
+  ],
+  "about": [
+    "I am a PhD candidate in Applied Mathematics at Brown University, advised by <a href=\"https://en.wikipedia.org/wiki/George_Karniadakis\">Prof. George Em Karniadakis</a> in the <a href=\"https://sites.brown.edu/crunch-group/\">Crunch Group</a>. I work on scientific machine learning: neural network architectures and optimization methods that are reliable enough to model physical and biological systems, and agentic AI systems that design and evolve numerical algorithms on their own.",
+    "Before Brown I studied Mechanical Engineering at Universidad de las Fuerzas Armadas-ESPE in Ecuador and worked with the University at Buffalo on machine learning for advanced manufacturing. I hold an Sc.M. in Mechanical Engineering and Applied Mechanics from Brown (2026)."
+  ],
+  "pillars": [
+    {
+      "id": "agentic",
+      "title": "Agentic AI for scientific discovery and numerical algorithms",
+      "blurb": "LLM-based agent teams that diagnose, design, and evolve numerical algorithms for scientific computing. The agents propose methods, run them, read the results, and improve on their own previous attempts, so that algorithm design becomes an autonomous, self-improving loop.",
+      "groups": [
+        {
+          "label": "",
+          "papers": [
+            {
+              "key": "graft",
+              "title": "GRAFT-ATHENA: Self-Improving Agentic Teams for Autonomous Discovery and Evolutionary Numerical Algorithms",
+              "authors": "J.D. Toscano, Z. Chai, G.E. Karniadakis",
+              "venue": "arXiv",
+              "year": 2026,
+              "desc": "Agent teams that rewrite their own workflow between generations, improving the algorithms they discover.",
+              "links": [
+                [
+                  "Paper",
+                  "https://arxiv.org/abs/2605.11117"
+                ],
+                [
+                  "Code coming soon",
+                  ""
+                ]
+              ]
+            },
+            {
+              "key": "athena",
+              "title": "ATHENA: Agentic Team for Hierarchical Evolutionary Numerical Algorithms",
+              "authors": "J.D. Toscano, D.T. Chen, G.E. Karniadakis",
+              "venue": "arXiv",
+              "year": 2025,
+              "desc": "A hierarchical team of LLM agents that evolves numerical solvers under a fixed compute budget.",
+              "links": [
+                [
+                  "Paper",
+                  "https://arxiv.org/abs/2512.03476"
+                ],
+                [
+                  "Code coming soon",
+                  ""
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physics",
+      "title": "Physics-informed AI for physical and biological systems",
+      "blurb": "Physics-informed methods that turn sparse, noisy measurements (particle tracks, MRI, velocity data) into full three-dimensional fields of velocity, pressure, temperature, or permeability. The main application is brain-wide cerebrospinal and glymphatic fluid flow, where direct measurement is impossible and clearance failure is linked to neurodegenerative disease. The same tools apply to turbulence and chemical reactors.",
+      "groups": [
+        {
+          "label": "Brain fluid dynamics",
+          "papers": [
+            {
+              "key": "mraiv",
+              "title": "MR-AIV reveals in vivo brain-wide fluid flow with physics-informed AI",
+              "authors": "J.D. Toscano, Y. Guo, Z. Wang, M. Vaezi, Y. Mori, G.E. Karniadakis, K.A.S. Boster, D.H. Kelley",
+              "venue": "Science Advances",
+              "year": 2026,
+              "desc": "First brain-wide 3D maps of interstitial and perivascular flow, with permeability and pressure, from dynamic contrast-enhanced MRI.",
+              "links": [
+                [
+                  "Paper",
+                  "https://doi.org/10.1126/sciadv.aeb0404"
+                ],
+                [
+                  "Code",
+                  "https://github.com/jdtoscano94/MR-AIV"
+                ]
+              ]
+            },
+            {
+              "key": "glymph_no",
+              "title": "Data-Efficient Neural Operators Enable Brain-Wide Glymphatic Velocity Field Estimation from DCE-MRI",
+              "authors": "Z. Wang, J.D. Toscano, Y. Guo, M. Vaezi, D.H. Kelley, G.E. Karniadakis, et al.",
+              "venue": "TechRxiv",
+              "year": 2026,
+              "desc": "Neural operators trained on MR-AIV outputs that estimate velocity fields in seconds.",
+              "links": []
+            },
+            {
+              "key": "robust_mraiv",
+              "title": "Robust MR-AIV: A Systematic Study of Robustness Improvement and Sensitivity Analysis of MR-AIV",
+              "authors": "M. Vaezi, J.D. Toscano, Y. Guo, R.S. Gomolka, G.E. Karniadakis, et al.",
+              "venue": "bioRxiv",
+              "year": 2026,
+              "desc": "How MR-AIV responds to noise, resolution, and modeling choices.",
+              "links": []
+            },
+            {
+              "key": "csf",
+              "title": "Inferring in vivo murine cerebrospinal fluid flow using artificial intelligence velocimetry with moving boundaries and uncertainty quantification",
+              "authors": "J.D. Toscano, C. Wu, A. Ladrón-de-Guevara, et al.",
+              "venue": "Interface Focus",
+              "year": 2024,
+              "desc": "AIV extended to moving vessel walls with uncertainty estimates for in vivo mouse data.",
+              "links": [
+                [
+                  "Paper",
+                  "https://doi.org/10.1098/rsfs.2024.0030"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Turbulence and engineering systems",
+          "papers": [
+            {
+              "key": "aivt",
+              "title": "AIVT: Inference of turbulent thermal convection from measured 3D velocity data by physics-informed Kolmogorov-Arnold networks",
+              "authors": "J.D. Toscano, T. Käufer, Z. Wang, et al.",
+              "venue": "Science Advances",
+              "year": 2025,
+              "desc": "Full temperature and pressure fields of Rayleigh-Bénard convection recovered from velocity measurements alone.",
+              "links": [
+                [
+                  "Paper",
+                  "https://doi.org/10.1126/sciadv.ads5236"
+                ],
+                [
+                  "Code",
+                  "https://github.com/jdtoscano94/Instant-AIVT"
+                ]
+              ]
+            },
+            {
+              "key": "fmenets",
+              "title": "FMEnets: Flow, Material, and Energy networks for non-ideal plug flow reactor design",
+              "authors": "C. Wu, J.D. Toscano, K. Shukla, et al.",
+              "venue": "Chemical Engineering Science",
+              "year": 2025,
+              "desc": "Physics-informed networks that couple flow, species, and energy balances for reactor design.",
+              "links": [
+                [
+                  "Paper",
+                  "https://doi.org/10.1016/j.ces.2025.122348"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "foundations",
+      "title": "Architectures, optimization, and learning theory for scientific ML",
+      "blurb": "The foundations the other two threads rest on: how physics-informed models should be built, how they should be trained, and why they generalize. This covers residual-based attention and its variational form, Kolmogorov-Arnold representations, and the learning dynamics of physics-informed networks.",
+      "groups": [
+        {
+          "label": "",
+          "papers": [
+            {
+              "key": "pikans",
+              "title": "From PINNs to PIKANs: Recent advances in physics-informed machine learning",
+              "authors": "J.D. Toscano, V. Oommen, A.J. Varghese, et al.",
+              "venue": "Machine Learning for Computational Science and Engineering",
+              "year": 2025,
+              "desc": "A review of architectures, training strategies, and theory for physics-informed learning, MLP and KAN alike.",
+              "links": [
+                [
+                  "Paper",
+                  "https://doi.org/10.1007/s44379-025-00015-1"
+                ],
+                [
+                  "arXiv",
+                  "https://arxiv.org/abs/2410.13228"
+                ]
+              ]
+            },
+            {
+              "key": "vrba",
+              "title": "A variational framework for residual-based adaptivity in neural PDE solvers and operator learning",
+              "authors": "J.D. Toscano, D.T. Chen, V. Oommen, J. Darbon, G.E. Karniadakis",
+              "venue": "npj Artificial Intelligence",
+              "year": 2026,
+              "desc": "Adaptive weighting derived from a variational principle rather than heuristics, for PINNs and operator networks.",
+              "links": [
+                [
+                  "Paper",
+                  "https://doi.org/10.1038/s44387-026-00084-4"
+                ],
+                [
+                  "Code",
+                  "https://github.com/jdtoscano94/NABLA-SciML"
+                ]
+              ]
+            },
+            {
+              "key": "kkans",
+              "title": "KKANs: Kurkova-Kolmogorov-Arnold Networks and Their Learning Dynamics",
+              "authors": "J.D. Toscano, L.L. Wang, G.E. Karniadakis",
+              "venue": "Neural Networks",
+              "year": 2025,
+              "desc": "A two-block architecture from Kurkova's theorem, and a study of how such networks learn.",
+              "links": [
+                [
+                  "Paper",
+                  "https://doi.org/10.1016/j.neunet.2025.107831"
+                ],
+                [
+                  "Code",
+                  "https://github.com/jdtoscano94/Kurkova_Kolmogorov_Arnold_Networks_KKANs"
+                ]
+              ]
+            },
+            {
+              "key": "learning",
+              "title": "Learning in PINNs: Phase transition, diffusion equilibrium, and generalization",
+              "authors": "S.J. Anagnostopoulos, J.D. Toscano, N. Stergiopulos, G.E. Karniadakis",
+              "venue": "Neural Networks",
+              "year": 2025,
+              "desc": "Training of physics-informed networks passes through a phase transition that predicts generalization.",
+              "links": [
+                [
+                  "Paper",
+                  "https://doi.org/10.1016/j.neunet.2025.107983"
+                ]
+              ]
+            },
+            {
+              "key": "fair",
+              "title": "A comprehensive and FAIR comparison between MLP and KAN representations for differential equations and operator networks",
+              "authors": "K. Shukla, J.D. Toscano, Z. Wang, et al.",
+              "venue": "Computer Methods in Applied Mechanics and Engineering",
+              "year": 2024,
+              "desc": "Systematic benchmark of MLP versus KAN for PDEs and operator learning, with open code and data.",
+              "links": [
+                [
+                  "Paper",
+                  "https://doi.org/10.1016/j.cma.2024.117290"
+                ],
+                [
+                  "Code",
+                  "https://github.com/jdtoscano94/NABLA-SciML"
+                ]
+              ]
+            },
+            {
+              "key": "rba",
+              "title": "Residual-based attention in physics-informed neural networks",
+              "authors": "S.J. Anagnostopoulos, J.D. Toscano, N. Stergiopulos, G.E. Karniadakis",
+              "venue": "Computer Methods in Applied Mechanics and Engineering",
+              "year": 2024,
+              "desc": "A cheap pointwise weighting that removes the need for hand-tuned loss balancing.",
+              "links": [
+                [
+                  "Paper",
+                  "https://doi.org/10.1016/j.cma.2024.116805"
+                ],
+                [
+                  "Code",
+                  "https://github.com/soanagno/rba-pinns"
+                ]
+              ]
+            },
+            {
+              "key": "ibrba",
+              "title": "Residual-based attention and connection to information bottleneck theory in PINNs",
+              "authors": "S.J. Anagnostopoulos, J.D. Toscano, et al.",
+              "venue": "arXiv",
+              "year": 2023,
+              "desc": "Links residual-based attention to information bottleneck training stages.",
+              "links": [
+                [
+                  "Paper",
+                  "https://arxiv.org/abs/2307.00379"
+                ]
+              ]
+            },
+            {
+              "key": "explicit",
+              "title": "Explicit Construction of Approximate Kolmogorov-Arnold Superpositions with C2-Smoothness",
+              "authors": "L. Song, J.D. Toscano, L. Wang",
+              "venue": "arXiv",
+              "year": 2025,
+              "desc": "A constructive smooth version of the Kolmogorov-Arnold representation.",
+              "links": [
+                [
+                  "Paper",
+                  "https://arxiv.org/abs/2508.04392"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "earlier": {
+    "title": "Earlier work: machine learning for advanced manufacturing",
+    "papers": [
+      {
+        "key": "electro2024",
+        "title": "Electrospinning Process Modeling: A Multi-Stage View",
+        "authors": "C. Zuniga-Navarrete, S.J. Segura, S. Baidya, J.D. Toscano, et al.",
+        "venue": "ASME MSEC",
+        "year": 2024,
+        "desc": "",
+        "links": [
+          [
+            "Paper",
+            "https://doi.org/10.1115/msec2024-125011"
+          ]
+        ]
+      },
+      {
+        "key": "teeth",
+        "title": "Teeth mold point cloud completion via data augmentation and hybrid RL-GAN",
+        "authors": "J.D. Toscano, C. Zuniga-Navarrete, W.D.J. Siu, et al.",
+        "venue": "Journal of Computing and Information Science in Engineering",
+        "year": 2023,
+        "desc": "",
+        "links": [
+          [
+            "Paper",
+            "https://doi.org/10.1115/1.4056566"
+          ],
+          [
+            "Code",
+            "https://github.com/jdtoscano94/Hybrid-RL-GAN-Point_Cloud_Completion"
+          ]
+        ]
+      },
+      {
+        "key": "joints",
+        "title": "Deformation analysis of 3D printed metacarpophalangeal and interphalangeal joints via transfer learning",
+        "authors": "J.D. Toscano, S. Hajifar, C.O. Segura, et al.",
+        "venue": "ASME MSEC",
+        "year": 2021,
+        "desc": "",
+        "links": [
+          [
+            "Paper",
+            "https://doi.org/10.1115/msec2021-63623"
+          ]
+        ]
+      },
+      {
+        "key": "electro2020",
+        "title": "A machine learning approach to model the electrospinning process of biocompatible materials",
+        "authors": "J.D. Toscano, Z. Li, L.J. Segura, H. Sun",
+        "venue": "ASME MSEC",
+        "year": 2020,
+        "desc": "",
+        "links": [
+          [
+            "Paper",
+            "https://doi.org/10.1115/msec2020-8362"
+          ]
+        ]
+      }
+    ]
+  },
+  "software": [
+    {
+      "name": "NABLA-SciML",
+      "desc": "Physics-informed machine learning tutorials in PyTorch and JAX, plus reference code for RBA, cKANs, KKANs, and vRBA.",
+      "url": "https://github.com/jdtoscano94/NABLA-SciML"
+    },
+    {
+      "name": "Instant-AIVT",
+      "desc": "Official implementation of AIVT.",
+      "url": "https://github.com/jdtoscano94/Instant-AIVT"
+    },
+    {
+      "name": "MR-AIV",
+      "desc": "Code for brain-wide fluid flow reconstruction from DCE-MRI.",
+      "url": "https://github.com/jdtoscano94/MR-AIV"
+    },
+    {
+      "name": "KKANs",
+      "desc": "Reference implementation of Kurkova-Kolmogorov-Arnold Networks.",
+      "url": "https://github.com/jdtoscano94/Kurkova_Kolmogorov_Arnold_Networks_KKANs"
+    },
+    {
+      "name": "vRBA",
+      "desc": "Variational residual-based attention for PINNs and operator networks.",
+      "url": "https://github.com/jdtoscano94/Variational-Residual-Based-Attention-vRBA-for-PINNs-and-Operator-Networks-"
+    },
+    {
+      "name": "YouTube channel",
+      "desc": "Lectures and tutorials on physics-informed machine learning.",
+      "url": "https://www.youtube.com/channel/UC6ryWzulr-Xom2Bym7O_CvQ"
+    }
+  ],
+  "outreach": "I organize the weekly Crunch Seminar at Brown University.",
+  "honors": [
+    [
+      "2026",
+      "TU Ilmenau Publication Award, Mathematics and Natural Sciences, for the AIVT paper"
+    ],
+    [
+      "2022, 2023",
+      "Brown Graduate School Doctoral Fellowship"
+    ],
+    [
+      "2021",
+      "Valedictorian, Department of Mechanical Sciences and Engineering, ESPE"
+    ]
+  ],
+  "talks": [
+    [
+      "Nov 2026",
+      "GRAFT-ATHENA (upcoming). Minisymposium on Agentic AI for Scientific Discovery and Computing, SIAM Conference on Mathematics of Data Science, Salt Lake City."
+    ],
+    [
+      "Jun 2026",
+      "GRAFT-ATHENA. USACM Student Chapter online seminar series."
+    ],
+    [
+      "May 2026",
+      "ATHENA. ICERM Hot Topics Workshop on Agentic Scientific Computing and Scientific Machine Learning, Brown University."
+    ],
+    [
+      "Feb 2026",
+      "ATHENA. Scientific AI Agents seminar, Department of Applied and Computational Mathematics and Statistics, University of Notre Dame."
+    ],
+    [
+      "2025",
+      "Physics-informed machine learning: introduction, extensions and practical applications. Computational Mathematics + X seminar, Caltech."
+    ],
+    [
+      "2025",
+      "Physics-informed machine learning: introduction, extensions and practical applications. Center for Scientific Computing and Data Science Research, UMass Dartmouth."
+    ],
+    [
+      "2024",
+      "Inferring in vivo murine cerebrospinal fluid flow with artificial intelligence velocimetry. AI Medical Imaging seminar, UT Austin."
+    ]
+  ]
+}
